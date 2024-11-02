@@ -11,7 +11,6 @@ A Java-based tool for handling various compression formats including **Zstandard
 ## Requirements
 
 - Java Development Kit (JDK) 8 or higher
-- Apache Commons Compress library 
 - Apache Commons Compress library (for handling various archive formats):
    - [Apache Commons Compress](https://commons.apache.org/proper/commons-compress/)
 - Zstandard library for Java:
