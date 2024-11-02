@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Compression Tool
+# InsideOut
 
-A Java-based tool for handling various compression formats including **Zstandard (zstd)**, **XZ**, **Gzip (gz)**, **Zip**, **Tar**, and **Bzip2**. This tool allows users to compress and decompress files easily via the command line.
+A Java-based tool for handling various compression/decompression formats including **Zstandard (zstd)**, **XZ**, **Gzip (gz)**, **Zip**, **Tar**, and **Bzip2**. This tool allows users to compress and decompress files easily via the command line.
 
 ## Features
 
