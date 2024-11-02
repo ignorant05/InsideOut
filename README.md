@@ -11,7 +11,16 @@ A Java-based tool for handling various compression formats including **Zstandard
 ## Requirements
 
 - Java Development Kit (JDK) 8 or higher
-- Apache Commons Compress library (included in the `lib` folder)
+- Apache Commons Compress library 
+- Apache Commons Compress library (for handling various archive formats):
+-    [Apache Commons Compress](https://commons.apache.org/proper/commons-compress/)
+- Zstandard library for Java:
+   - [Zstandard Java](https://github.com/luben/zstd-jni)
+- XZ library for Java:
+   - [XZ for Java](https://tukaani.org/xz/java/)
+- (Optional) Apache Commons CLI library (for command-line parsing ) :
+   - [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/)
+ ###Note All libraries must been included in the `lib` folder to run the tool.
 
 ## Installation
 
