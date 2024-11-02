@@ -37,24 +37,23 @@ Usage
 Decompression
 To decompress a file, use the following command:
 
-bash
-Copy code
-java -cp "bin:lib/*" InsideOut -d -p <path_to_compressed_file>
+    ```bash
+    java -cp "bin:lib/*" InsideOut -d -p <path_to_compressed_file>
 Compression
 To compress a file, use the following command:
+    
+    ```bash
+    java -cp "bin:lib/*" InsideOut -c -p <path_to_input_file> -t <compression_format>
 
-bash
-Copy code
-java -cp "bin:lib/*" InsideOut -c -p <path_to_input_file> -t <compression_format>
-Parameters
+##Parameters
 -d : Specifies that the operation is decompression.
 -c : Specifies that the operation is compression.
 -p <file_path> : Path to the file to be compressed or decompressed.
 -t <format> : Compression format (for compression only, e.g., zstd, xz, gz, zip, bzip2).
-Contributing
+##Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bugs.
 
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 css
@@ -80,4 +79,4 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
->>>>>>> 055f559 (Initial commit)
+
