@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/ignorant05/Downloads/java_requirements/commons-compress-1.27.1/commons-compress-1.27.1.jar",
+        "/home/ignorant05/Downloads/java_requirements/xz-1.10.jar",
+        "/home/ignorant05/Downloads/java_requirements/zstd-jni-1.5.5-1.jar",
+        "/home/ignorant05/Downloads/java_requirements/lzma-sdk-4j-9.22.0.jar",
+        "/home/ignorant05/Downloads/java_requirements/commons-cli-1.9.0/commons-cli-1.9.0.jar",
+        "/home/ignorant05/Downloads/java_requirements/commons-io-2.17.0/commons-io-2.17.0.jar"
+    ]
+}
