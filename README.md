@@ -20,7 +20,7 @@ A Java-based tool for handling various compression/decompression formats includi
 - (Optional) Apache Commons CLI library (for command-line parsing ) :
    - [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/)
 
-###Note All libraries must been included in the `lib` folder to run the tool.
+### Note All libraries must been included in the `lib` folder to run the tool.
 
 ## Installation
 
@@ -51,10 +51,10 @@ To compress a file, use the following command:
 -c : Specifies that the operation is compression.
 -p <file_path> : Path to the file to be compressed or decompressed.
 -t <format> : Compression format (for compression only, e.g., zstd, xz, gz, zip, bzip2).
-##Contributing
+## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bugs.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 css
