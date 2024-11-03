@@ -19,7 +19,8 @@ A Java-based tool for handling various compression/decompression formats includi
    - [XZ for Java](https://tukaani.org/xz/java/)
 - (Optional) Apache Commons CLI library (for command-line parsing ) :
    - [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/)
- ###Note All libraries must been included in the `lib` folder to run the tool.
+
+###Note All libraries must been included in the `lib` folder to run the tool.
 
 ## Installation
 
